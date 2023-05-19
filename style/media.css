@@ -2,10 +2,10 @@
 @media (max-width: 575.98px) {
        /* header css start */
     header{
-        padding: 0;
+        padding: 5px 0;
      }
      .logo{
-        width: 180px;
+        width: 140px;
      }
      .ntc{
         margin-top: -8px;
@@ -70,16 +70,19 @@
     font-size: 15px;
    }
    /* testimonial start */
-    .testamonial {
-    padding: 0 0 100px;
-     }
-     .t_mb{
-   margin-bottom: 40px;
-     }
+  .testamonial {
+      padding: 0 0 80px;
+  }
     .t_img {
-        margin-right: 0;
-        margin-bottom: 18px;
-     }
+      margin-right: 0;
+      margin-bottom: 25px;
+   }
+   .carousel-item {
+    padding: 40px 0;
+  }
+  .carousel-indicators {
+    bottom: -35px;
+   }
     .s_img img{
       width: 100px;
     }  
@@ -101,6 +104,11 @@
     padding: 0 0 25px;
     text-align: center;
     }
+    .f_p1 p {
+      color: #FFF;
+      margin-bottom: 0;
+      line-height: 28px;
+  }
    .f_p2{
     margin-bottom: 30px;
     }
@@ -112,9 +120,6 @@
       line-height: 28px;
     
   }
-   .footer_bottom p {
-	font-size: 15px;
-}
 }
 
 
@@ -122,10 +127,10 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
      /* header css start */
      header{
-        padding: 0;
+        padding: 5px 0;
      }
      .logo{
-        width: 190px;
+        width: 170px;
      }
      .ntc{
         margin-top: -5px;
@@ -175,14 +180,17 @@
     }
     /* testimonial start */
     .testamonial {
-      padding: 0 0 60px;
+      padding: 0 0 80px;
   }
-  .t_mb {
-    margin-bottom: 40px;
-}
     .t_img {
       margin-right: 0;
-      margin-bottom: 10px;
+      margin-bottom: 25px;
+   }
+   .carousel-item {
+    padding: 40px 0;
+  }
+  .carousel-indicators {
+    bottom: -35px;
    }
     .s_img img{
     width: 100px;
@@ -199,7 +207,7 @@
     padding: 55px 0 40px;
 }
    .f_p1 {
-    padding: 0 55px 25px;
+    padding: 0 38px 25px;
     text-align: center;
  }
 }
@@ -247,17 +255,8 @@
       }
       /* testamonial start */
       .testamonial {
-        padding: 0 0 80px;
+        padding: 0 0 100px;
     }
-    .t_mb {
-      margin-bottom: 40px;
-  }
-      .carousel-control-next {
-        right: -6%;
-    }
-    .carousel-control-prev {
-      left: -6%;
-  }
     .t_img {
     margin-right: 0px;
     }
@@ -267,7 +266,7 @@
       padding: 55px 0 40px;
   }
     .f_p1 {
-      padding: 0 80px 25px;
+      padding: 0 45px 25px;
       text-align: center;
   }
 }
@@ -287,9 +286,6 @@
     .cf_span{
       font-size: 15px;
     }
-    .t_mb {
-      margin-bottom: 50px;
-  }
 
 }
 /* Extra large devices (large desktops, 1200px and up) */
@@ -299,5 +295,11 @@
 
 /* Extra extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
+  .carousel-item {
+    padding: 90px 0;
+ }
+ .carousel-indicators {
+  bottom: -45px;
+}
 
 }
